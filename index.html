@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Site educativo sobre energias renováveis e sustentabilidade ambiental." />
+  <title>Energias Renováveis | Futuro Sustentável</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&display=swap"
+    rel="stylesheet" />
+
+
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+
+
+      <a href="#hero" class="logo" aria-label="Energias Renováveis — início">
+        <span class="logo-icon">
+          <i class="ph-fill ph-leaf"></i>
+        </span>
+        <span class="logo-text">Renov<em>Arte</em></span>
+      </a>
+
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#o-que-sao">O Que São</a></li>
+          <li><a href="#tipos">Tipos</a></li>
+          <li><a href="#importancia">Importância</a></li>
+          <li><a href="#impactos">Impactos</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+        </ul>
+      </nav>
+
+
+      <div class="header-controls">
+
+        <button class="btn-theme" id="btn-theme" aria-label="Alternar modo escuro" title="Alternar modo escuro">
+          <i class="ph ph-moon" id="theme-icon"></i>
+        </button>
+
+        <button class="btn-hamburger" id="btn-hamburger" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+
+
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <ul>
+        <li><a href="#o-que-sao" class="mobile-link">O Que São</a></li>
+        <li><a href="#tipos" class="mobile-link">Tipos de Energia</a></li>
+        <li><a href="#importancia" class="mobile-link">Importância</a></li>
+        <li><a href="#impactos" class="mobile-link">Impactos Ambientais</a></li>
+        <li><a href="#curiosidades" class="mobile-link">Curiosidades</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <section class="hero" id="hero" aria-label="Banner principal">
+
+
+    <div class="hero-bg" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-lines"></div>
+    </div>
+
+
+    <div class="container hero-content">
+      <div class="hero-badge reveal-up">
+        <i class="ph-fill ph-sparkle"></i>
+        Projeto Educativo 2026
+      </div>
+
+      <h1 class="hero-title reveal-up delay-1">
+        O Futuro é<br />
+        <em>Renovável</em>
+      </h1>
+
+      <p class="hero-subtitle reveal-up delay-2">
+        Descubra como as energias renováveis estão transformando o planeta e construindo um amanhã mais limpo, justo e
+        sustentável para todas as gerações.
+      </p>
+
+      <div class="hero-cta reveal-up delay-3">
+        <a href="#o-que-sao" class="btn btn-primary">
+          Explorar <i class="ph ph-arrow-down"></i>
+        </a>
+        <a href="#tipos" class="btn btn-outline">
+          Ver Energias
+        </a>
+      </div>
+
+
+      <div class="hero-stats reveal-up delay-4">
+        <div class="hero-stat">
+          <strong class="counter" data-target="29">0</strong><span>%</span>
+          <small>da eletricidade global já é renovável</small>
+        </div>
+        <div class="hero-stat-divider" aria-hidden="true"></div>
+        <div class="hero-stat">
+          <strong class="counter" data-target="3000">0</strong><span>+</span>
+          <small>GW de capacidade instalada solar</small>
+        </div>
+        <div class="hero-stat-divider" aria-hidden="true"></div>
+        <div class="hero-stat">
+          <strong class="counter" data-target="13">0</strong><span>M</span>
+          <small>empregos gerados pelo setor em 2024</small>
+        </div>
+      </div>
+    </div>
+
+
+    <a href="#o-que-sao" class="scroll-down" aria-label="Ir para próxima seção">
+      <i class="ph ph-caret-double-down"></i>
+    </a>
+  </section>
+
+
+  <section class="section section-alt" id="o-que-sao" aria-labelledby="h-o-que-sao">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <span class="section-tag">Conceito</span>
+        <h2 id="h-o-que-sao">O Que São Energias Renováveis?</h2>
+        <p class="section-lead">
+          Fontes inesgotáveis que a natureza reabastece continuamente, sem emissão de carbono e sem degradação
+          permanente do meio ambiente.
+        </p>
+      </div>
+
+
+      <div class="two-col reveal-up delay-1">
+        <div class="col-text">
+          <p>
+            Energias renováveis são aquelas obtidas de fontes naturais que se regeneram em escala humana de tempo — como
+            o sol, o vento, a água e o calor interno da Terra. Diferentemente dos combustíveis fósseis (carvão, petróleo
+            e gás natural), que levaram milhões de anos para se formar e se esgotam com o uso, as fontes renováveis são,
+            na prática, inesgotáveis dentro de qualquer horizonte histórico relevante.
+          </p>
+          <p>
+            O conceito vai além da abundância: essas fontes produzem energia com impacto ambiental drasticamente menor —
+            pouquíssimas emissões de gases de efeito estufa durante a operação, ausência de resíduos radioativos e
+            compatibilidade com a biodiversidade local quando bem planejadas.
+          </p>
+          <p>
+            A transição energética global, acelerada pelos acordos climáticos de Paris (2015) e COP28 (2023), posiciona
+            as renováveis como a espinha dorsal da matriz elétrica do século XXI, substituindo gradualmente usinas
+            termoelétricas e nucleares em todo o mundo.
+          </p>
+
+
+          <div class="pill-list">
+            <span class="pill"><i class="ph-fill ph-recycle"></i> Ciclo Natural</span>
+            <span class="pill"><i class="ph-fill ph-cloud-slash"></i> Baixo CO₂</span>
+            <span class="pill"><i class="ph-fill ph-infinity"></i> Inesgotável</span>
+            <span class="pill"><i class="ph-fill ph-currency-dollar"></i> Custo Declinante</span>
+          </div>
+        </div>
+
+
+        <div class="col-visual">
+          <div class="concept-card">
+            <div class="concept-icon-ring">
+              <i class="ph-fill ph-sun-horizon"></i>
+            </div>
+            <h3>Energia Limpa</h3>
+            <p>Produzida sem combustão de materiais fósseis, sem resíduos perigosos e com emissões de CO₂ próximas de
+              zero durante a operação.</p>
+            <div class="concept-bar">
+              <div class="bar-label">
+                <span>Emissões comparadas ao carvão</span>
+                <span class="bar-pct">-98%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" style="--target-w: 2%;"></div>
+              </div>
+            </div>
+            <div class="concept-bar">
+              <div class="bar-label">
+                <span>Custo por MWh (queda desde 2010)</span>
+                <span class="bar-pct">-89%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill accent" style="--target-w: 89%;"></div>
+              </div>
+            </div>
+            <div class="concept-bar">
+              <div class="bar-label">
+                <span>Participação na nova capacidade global</span>
+                <span class="bar-pct">95%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill green" style="--target-w: 95%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="tipos" aria-labelledby="h-tipos">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <span class="section-tag">Fontes</span>
+        <h2 id="h-tipos">Tipos de Energias Renováveis</h2>
+        <p class="section-lead">
+          Cada fonte possui características únicas, vantagens específicas e potencial de aplicação em diferentes regiões
+          do planeta.
+        </p>
+      </div>
+
+
+      <div class="energy-grid">
+
+
+        <article class="energy-card reveal-up" id="solar" data-color="solar">
+          <div class="card-top">
+            <div class="card-icon-wrap">
+              <i class="ph-fill ph-sun"></i>
+            </div>
+            <div class="card-badge">Mais Popular</div>
+          </div>
+          <h3>Energia Solar</h3>
+          <p class="card-intro">
+            Captada por painéis fotovoltaicos ou sistemas de concentração solar, a energia do sol é a fonte renovável de
+            crescimento mais rápido do mundo.
+          </p>
+          <div class="card-details">
+            <p>
+              Os painéis fotovoltaicos (PV) convertem fótons de luz em eletricidade por meio do efeito fotoelétrico,
+              descoberto por Albert Einstein. A tecnologia avançou de células de silício monocristalino (eficiência
+              ~26%) a células perovskita tandem (>33% em laboratório). Sistemas de Concentração Solar de Potência (CSP)
+              usam espelhos para aquecer fluidos e acionar turbinas.
+            </p>
+            <p>
+              O Brasil possui irradiação solar entre as mais altas do mundo — média de 5,5 kWh/m² por dia — tornando o
+              país um gigante potencial. Em 2024, a energia solar já representou mais de 15% da matriz elétrica
+              nacional.
+            </p>
+            <ul class="card-facts">
+              <li><i class="ph ph-check-circle"></i> Funciona em telhados residenciais e fazendas solares</li>
+              <li><i class="ph ph-check-circle"></i> Custo caiu 90% na última década</li>
+              <li><i class="ph ph-check-circle"></i> Vida útil dos painéis: 25–30 anos</li>
+              <li><i class="ph ph-check-circle"></i> Baixa manutenção e silenciosa</li>
+            </ul>
+          </div>
+          <button class="card-toggle" aria-expanded="false">
+            Saiba mais <i class="ph ph-caret-down"></i>
+          </button>
+        </article>
+
+
+        <article class="energy-card reveal-up delay-1" id="eolica" data-color="wind">
+          <div class="card-top">
+            <div class="card-icon-wrap">
+              <i class="ph-fill ph-wind"></i>
+            </div>
+            <div class="card-badge">2ª no Mundo</div>
+          </div>
+          <h3>Energia Eólica</h3>
+          <p class="card-intro">
+            Gerada pela força dos ventos sobre turbinas, é uma das fontes mais baratas do mundo e cresce rapidamente
+            tanto em terra quanto no mar.
+          </p>
+          <div class="card-details">
+            <p>
+              As turbinas eólicas transformam a energia cinética do vento em energia mecânica e depois elétrica por meio
+              de geradores. Aerogeradores onshore (terrestres) podem atingir 5–7 MW por unidade, enquanto offshore
+              (marítimas) já ultrapassam 15 MW — suficiente para abastecer 20.000 residências por turbina.
+            </p>
+            <p>
+              O Brasil é líder da América Latina em energia eólica, com parques concentrados no Nordeste — região de
+              ventos constantes e fortes. O país já ultrapassa 28 GW de capacidade instalada e é referência mundial em
+              custo competitivo de geração.
+            </p>
+            <ul class="card-facts">
+              <li><i class="ph ph-check-circle"></i> Menor custo por MWh dentre as fontes renováveis</li>
+              <li><i class="ph ph-check-circle"></i> Compatível com uso agrícola no mesmo terreno</li>
+              <li><i class="ph ph-check-circle"></i> Offshore não ocupa terra e tem ventos mais fortes</li>
+              <li><i class="ph ph-check-circle"></i> Operação praticamente sem emissões</li>
+            </ul>
+          </div>
+          <button class="card-toggle" aria-expanded="false">
+            Saiba mais <i class="ph ph-caret-down"></i>
+          </button>
+        </article>
+
+
+        <article class="energy-card reveal-up delay-2" id="hidreletrica" data-color="water">
+          <div class="card-top">
+            <div class="card-icon-wrap">
+              <i class="ph-fill ph-drop-half"></i>
+            </div>
+            <div class="card-badge">Base do Brasil</div>
+          </div>
+          <h3>Energia Hidrelétrica</h3>
+          <p class="card-intro">
+            A mais utilizada no Brasil, aproveita o fluxo de rios para mover turbinas. Responde por cerca de 60% da
+            geração elétrica nacional.
+          </p>
+          <div class="card-details">
+            <p>
+              Usinas hidrelétricas captam a energia potencial da água armazenada em reservatórios (ou o fluxo a fio
+              d'água) para acionar turbinas acopladas a geradores. São altamente confiáveis e despacháveis — produzem
+              quando necessário, ao contrário do sol ou do vento que dependem das condições climáticas.
+            </p>
+            <p>
+              PCHs (Pequenas Centrais Hidrelétricas) e usinas a fio d'água emergem como alternativas mais sustentáveis
+              às grandes barragens tradicionais, minimizando impactos socioambientais como o alagamento de áreas e o
+              deslocamento de comunidades.
+            </p>
+            <ul class="card-facts">
+              <li><i class="ph ph-check-circle"></i> Fornece energia base estável e controlável</li>
+              <li><i class="ph ph-check-circle"></i> Alta vida útil (50–100 anos)</li>
+              <li><i class="ph ph-check-circle"></i> Reservatórios controlam cheias e abastecimento</li>
+              <li><i class="ph ph-check-circle"></i> Complementa intermitência de solar e eólica</li>
+            </ul>
+          </div>
+          <button class="card-toggle" aria-expanded="false">
+            Saiba mais <i class="ph ph-caret-down"></i>
+          </button>
+        </article>
+
+
+        <article class="energy-card reveal-up delay-3" id="biomassa" data-color="bio">
+          <div class="card-top">
+            <div class="card-icon-wrap">
+              <i class="ph-fill ph-plant"></i>
+            </div>
+          </div>
+          <h3>Biomassa</h3>
+          <p class="card-intro">
+            Usa matéria orgânica — resíduos agrícolas, florestais e industriais — para gerar calor, eletricidade e
+            biocombustíveis líquidos.
+          </p>
+          <div class="card-details">
+            <p>
+              A bioenergia aproveita o carbono já presente no ciclo biológico: plantas absorvem CO₂ ao crescer e liberam
+              esse mesmo carbono quando queimadas ou fermentadas, tornando o ciclo neutro em emissões (quando bem
+              gerenciado). Bagaço de cana, palha de milho, resíduos de madeira e dejetos animais são exemplos de
+              matéria-prima.
+            </p>
+            <p>
+              O Brasil é líder mundial em bioenergia com o etanol de cana-de-açúcar — responsável por praticamente toda
+              a gasolina misturada nos postos — e com o crescimento do biogás a partir de aterros sanitários e dejetos
+              suínos.
+            </p>
+            <ul class="card-facts">
+              <li><i class="ph ph-check-circle"></i> Aproveita resíduos que iriam para aterros</li>
+              <li><i class="ph ph-check-circle"></i> Produção de biogás, etanol e biodiesel</li>
+              <li><i class="ph ph-check-circle"></i> Geração de empregos no campo</li>
+              <li><i class="ph ph-check-circle"></i> Compatível com infraestrutura existente</li>
+            </ul>
+          </div>
+          <button class="card-toggle" aria-expanded="false">
+            Saiba mais <i class="ph ph-caret-down"></i>
+          </button>
+        </article>
+
+
+        <article class="energy-card reveal-up delay-4" id="geotermica" data-color="geo">
+          <div class="card-top">
+            <div class="card-icon-wrap">
+              <i class="ph-fill ph-mountains"></i>
+            </div>
+          </div>
+          <h3>Energia Geotérmica</h3>
+          <p class="card-intro">
+            Extrai calor do interior da Terra para gerar eletricidade e calefação, com disponibilidade constante
+            independente de clima ou horário.
+          </p>
+          <div class="card-details">
+            <p>
+              A energia geotérmica se origina no calor remanescente da formação do planeta e no decaimento de isótopos
+              radioativos no manto. Poços perfurados até reservatórios de vapor ou água quente permitem acionar turbinas
+              ou sistemas de aquecimento direto. Islandeses obtêm 90% do aquecimento residencial e 30% da eletricidade
+              de fontes geotérmicas.
+            </p>
+            <p>
+              Sistemas de Geotermia de Ciclo Fechado (EGS) prometem expandir a tecnologia para regiões sem vulcanismo
+              ativo — incluindo partes do Brasil — ao injetar água em rochas quentes profundas (4–10 km), criando
+              reservatórios artificiais de vapor.
+            </p>
+            <ul class="card-facts">
+              <li><i class="ph ph-check-circle"></i> Disponível 24 h / 7 dias por semana</li>
+              <li><i class="ph ph-check-circle"></i> Pegada de carbono muito baixa</li>
+              <li><i class="ph ph-check-circle"></i> Pequena área superficial ocupada</li>
+              <li><i class="ph ph-check-circle"></i> Fator de capacidade >90% (superior ao solar)</li>
+            </ul>
+          </div>
+          <button class="card-toggle" aria-expanded="false">
+            Saiba mais <i class="ph ph-caret-down"></i>
+          </button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="importancia" aria-labelledby="h-importancia">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <span class="section-tag">Relevância</span>
+        <h2 id="h-importancia">Por Que as Renováveis São Essenciais?</h2>
+        <p class="section-lead">
+          A transição energética é a maior alavanca disponível para conter as mudanças climáticas e garantir
+          desenvolvimento sustentável global.
+        </p>
+      </div>
+
+
+      <div class="timeline reveal-up delay-1">
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="ph-fill ph-thermometer-hot"></i>
+          </div>
+          <div class="timeline-content">
+            <h3>Combate às Mudanças Climáticas</h3>
+            <p>O setor energético é responsável por <strong>73% das emissões globais de gases de efeito estufa</strong>.
+              A substituição de combustíveis fósseis por renováveis é a mudança de maior impacto para limitar o
+              aquecimento global a 1,5°C — meta do Acordo de Paris. Cada GWh gerado por energia solar em vez de carvão
+              evita cerca de 1.000 toneladas de CO₂.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="ph-fill ph-shield-check"></i>
+          </div>
+          <div class="timeline-content">
+            <h3>Segurança e Soberania Energética</h3>
+            <p>Países que dependem de importações de petróleo e gás ficam vulneráveis a crises geopolíticas e
+              volatilidade de preços — como demonstrou a crise energética europeia de 2022. As renováveis são fontes
+              domésticas: o sol brilha, o vento sopra e os rios correm dentro do território nacional, garantindo
+              autonomia estratégica.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="ph-fill ph-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <h3>Desenvolvimento Econômico e Emprego</h3>
+            <p>O setor renovável global gerou <strong>13,7 milhões de empregos diretos</strong> em 2023, segundo a
+              IRENA. No Brasil, a construção de parques eólicos e solares impulsionou economias locais no Nordeste e
+              Sul, criando cadeias produtivas que vão da fabricação de painéis à manutenção de turbinas — empregos que
+              não podem ser terceirizados para outro país.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="ph-fill ph-hand-heart"></i>
+          </div>
+          <div class="timeline-content">
+            <h3>Acesso à Energia e Equidade Social</h3>
+            <p>Sistemas fotovoltaicos descentralizados e mini-redes eólicas permitem levar eletricidade a comunidades
+              rurais e isoladas que jamais serão conectadas às grandes redes. O Programa Luz Para Todos, combinado a
+              energia solar, já beneficiou milhões de brasileiros. Acesso à energia é pré-requisito para saúde, educação
+              e produtividade.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="ph-fill ph-trend-up"></i>
+          </div>
+          <div class="timeline-content">
+            <h3>Economia a Longo Prazo</h3>
+            <p>O custo da energia solar fotovoltaica caiu <strong>89% entre 2010 e 2023</strong>, tornando-se a fonte de
+              eletricidade mais barata da história. Analistas do IPCC projetam que a transição para renováveis custará
+              menos do que continuar usando fósseis — especialmente ao considerar os custos de saúde pública e danos
+              climáticos externalizados pelos combustíveis sujos.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section stats-section" id="stats" aria-labelledby="h-stats">
+    <div class="stats-bg" aria-hidden="true">
+      <div class="orb orb-4"></div>
+    </div>
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag light">Números</span>
+        <h2 id="h-stats" style="color:var(--clr-white)">Renováveis em Dados</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-item reveal-up">
+          <span class="stat-number"><span class="counter" data-target="3869">0</span> GW</span>
+          <p>Capacidade renovável instalada no mundo (2023)</p>
+        </div>
+        <div class="stat-item reveal-up delay-1">
+          <span class="stat-number"><span class="counter" data-target="90">0</span>%</span>
+          <p>da nova capacidade elétrica instalada em 2023 foi renovável</p>
+        </div>
+        <div class="stat-item reveal-up delay-2">
+          <span class="stat-number">R$ <span class="counter" data-target="78">0</span> bi</span>
+          <p>investidos em energia renovável no Brasil em 2023</p>
+        </div>
+        <div class="stat-item reveal-up delay-3">
+          <span class="stat-number"><span class="counter" data-target="85">0</span>%</span>
+          <p>da matriz elétrica brasileira é de origem renovável</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="impactos" aria-labelledby="h-impactos">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <span class="section-tag">Meio Ambiente</span>
+        <h2 id="h-impactos">Impactos Humanos e Soluções Energéticas</h2>
+        <p class="section-lead">
+          Compreender os danos causados pelos combustíveis fósseis é fundamental para valorizar a urgência da transição
+          para fontes limpas.
+        </p>
+      </div>
+
+
+      <div class="impact-grid">
+
+        <div class="impact-card reveal-up problem">
+          <div class="impact-icon"><i class="ph-fill ph-factory"></i></div>
+          <h3>Poluição Atmosférica</h3>
+          <p>A queima de carvão e petróleo libera SO₂, NOx, material particulado e mercúrio, causando doenças
+            respiratórias que matam <strong>8,1 milhões de pessoas</strong> ao ano (OMS, 2023) e custa trilhões em saúde
+            pública.</p>
+          <div class="impact-solution">
+            <i class="ph ph-arrow-right"></i>
+            <span>Energias solar, eólica e geotérmica não emitem nenhum poluente durante a operação.</span>
+          </div>
+        </div>
+
+        <div class="impact-card reveal-up delay-1 problem">
+          <div class="impact-icon"><i class="ph-fill ph-thermometer-simple"></i></div>
+          <h3>Aquecimento Global</h3>
+          <p>A concentração de CO₂ atmosférico atingiu <strong>424 ppm</strong> em 2024 — o nível mais alto em 3 milhões
+            de anos. O resultado é o aumento de eventos extremos: ondas de calor, secas, inundações e incêndios
+            florestais.</p>
+          <div class="impact-solution">
+            <i class="ph ph-arrow-right"></i>
+            <span>Cada TWh renovável substitui emissões equivalentes a retirar 100.000 carros das ruas por um
+              ano.</span>
+          </div>
+        </div>
+
+        <div class="impact-card reveal-up delay-2 problem">
+          <div class="impact-icon"><i class="ph-fill ph-drop-slash"></i></div>
+          <h3>Escassez e Poluição da Água</h3>
+          <p>Termelétricas e refinarias de petróleo consomem enormes volumes de água e frequentemente contaminam rios e
+            lençóis freáticos com hidrocarbonetos, metais pesados e efluentes térmicos.</p>
+          <div class="impact-solution">
+            <i class="ph ph-arrow-right"></i>
+            <span>Painéis solares e turbinas eólicas consomem praticamente zero água em operação.</span>
+          </div>
+        </div>
+
+        <div class="impact-card reveal-up delay-3 problem">
+          <div class="impact-icon"><i class="ph-fill ph-tree-evergreen"></i></div>
+          <h3>Desmatamento e Perda de Biodiversidade</h3>
+          <p>A extração de petróleo e carvão destrói habitats críticos. No Brasil, a abertura de áreas para lavouras de
+            soja (usada em biodiesel não sustentável) contribui para o desmatamento da Amazônia e do Cerrado.</p>
+          <div class="impact-solution">
+            <i class="ph ph-arrow-right"></i>
+            <span>Energias renováveis bem planejadas podem coexistir com a biodiversidade, como parques solares
+              agrovoltaicos.</span>
+          </div>
+        </div>
+
+        <div class="impact-card reveal-up delay-4 problem">
+          <div class="impact-icon"><i class="ph-fill ph-radioactive"></i></div>
+          <h3>Resíduos Tóxicos e Nucleares</h3>
+          <p>Além do CO₂, a indústria de combustíveis fósseis gera cinzas de carvão (com arsênio e chumbo), lama de
+            petróleo e, no caso nuclear, resíduos radioativos com meia-vida de milhares de anos.</p>
+          <div class="impact-solution">
+            <i class="ph ph-arrow-right"></i>
+            <span>Painéis e turbinas ao fim da vida útil são recicláveis em grande parte; o ciclo é muito mais
+              limpo.</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="curiosidades" aria-labelledby="h-curiosidades">
+    <div class="container">
+
+      <div class="section-header reveal-up">
+        <span class="section-tag">Você Sabia?</span>
+        <h2 id="h-curiosidades">Curiosidades e Fatos Surpreendentes</h2>
+        <p class="section-lead">
+          O mundo renovável está cheio de recordes, inovações e histórias que mudam nossa perspectiva sobre energia.
+        </p>
+      </div>
+
+      <div class="curiosity-grid">
+
+        <div class="curiosity-card reveal-up">
+          <span class="curiosity-num">01</span>
+          <i class="ph-fill ph-sun"></i>
+          <h4>O Sol nos abastece em 1 hora</h4>
+          <p>A quantidade de energia solar que chega à superfície terrestre em apenas <strong>1 hora e 20
+              minutos</strong> seria suficiente para suprir o consumo energético mundial de um ano inteiro.</p>
+        </div>
+
+        <div class="curiosity-card reveal-up delay-1">
+          <span class="curiosity-num">02</span>
+          <i class="ph-fill ph-wind"></i>
+          <h4>Pás que quebram recordes</h4>
+          <p>A turbina offshore Siemens Gamesa SG 14-236 DD tem pás de <strong>115,5 metros</strong> cada — mais longas
+            que um campo de futebol — e pode gerar até 15 MW por unidade.</p>
+        </div>
+
+        <div class="curiosity-card reveal-up delay-2">
+          <span class="curiosity-num">03</span>
+          <i class="ph-fill ph-drop-half"></i>
+          <h4>Hidro complementa o sol</h4>
+          <p>No Brasil, a hidrelétrica age como uma "bateria natural": nos dias ensolarados, as usinas reduzem a geração
+            e guardam água nos reservatórios; à noite, quando o solar para, a água abastece a demanda.</p>
+        </div>
+
+        <div class="curiosity-card reveal-up delay-3">
+          <span class="curiosity-num">04</span>
+          <i class="ph-fill ph-mountains"></i>
+          <h4>A Islândia funciona com geotermia</h4>
+          <p>Graças à sua localização sobre a Dorsal Mesoatlântica, a Islândia obtém <strong>100% da
+              eletricidade</strong> de fontes renováveis (hidro + geotérmica) e aquece 90% de suas casas com vapor da
+            terra.</p>
+        </div>
+
+        <div class="curiosity-card reveal-up delay-4">
+          <span class="curiosity-num">05</span>
+          <i class="ph-fill ph-plant"></i>
+          <h4>Biogás de lixo urbano</h4>
+          <p>Um único aterro sanitário de grande porte produz biogás suficiente para gerar eletricidade para dezenas de
+            milhares de casas — aproveitando o metano que, de outra forma, seria 28 vezes mais nocivo ao clima do que o
+            CO₂.</p>
+        </div>
+
+        <div class="curiosity-card reveal-up delay-5">
+          <span class="curiosity-num">06</span>
+          <i class="ph-fill ph-currency-dollar"></i>
+          <h4>A mais barata da história</h4>
+          <p>Em leilões no Oriente Médio e na Índia, a energia solar já foi contratada por menos de <strong>US$
+              10/MWh</strong> — mais barato do que qualquer outra fonte de geração de energia já registrada na história
+            da humanidade.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="fundamentacao" aria-labelledby="h-fundamentacao">
+    <div class="container narrow">
+
+      <div class="section-header reveal-up">
+        <span class="section-tag">Justificativa</span>
+        <h2 id="h-fundamentacao">Por Que Este Tema?</h2>
+      </div>
+
+      <div class="prose-block reveal-up delay-1">
+        <p>
+          A escolha do tema "Energias Renováveis" para este projeto se fundamenta na urgência e na abrangência da crise
+          climática que define o contexto histórico do século XXI. Vivemos um momento em que as consequências das
+          decisões energéticas feitas nas décadas passadas já são visíveis e mensuráveis — ondas de calor recordes,
+          glaciares em colapso, eventos climáticos extremos cada vez mais frequentes.
+        </p>
+        <p>
+          Diante desse cenário, as energias renováveis não são apenas uma opção tecnológica entre outras: são a resposta
+          mais estrutural e escalável disponível para descarbonizar a economia global. Estudar, compreender e divulgar
+          esse tema é, portanto, um ato político e pedagógico ao mesmo tempo.
+        </p>
+        <p>
+          Do ponto de vista acadêmico, o tema permite articular conhecimentos de múltiplas disciplinas — física,
+          química, biologia, economia, engenharia, política e ética ambiental — demonstrando que os problemas complexos
+          do mundo real exigem respostas igualmente complexas e interdisciplinares.
+        </p>
+        <p>
+          Além disso, o Brasil ocupa uma posição privilegiada nessa transição: somos um dos países com maior potencial
+          de geração solar, eólica, hídrica e de biomassa do planeta. Compreender esse patrimônio natural e tecnológico
+          é parte essencial da formação de cidadãos e profissionais capazes de contribuir para o desenvolvimento
+          sustentável do país.
+        </p>
+        <blockquote class="pull-quote">
+          "Não existe um Plano B porque não existe um Planeta B."
+          <cite>— Ban Ki-moon, ex-Secretário-Geral da ONU</cite>
+        </blockquote>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer class="site-footer" id="contato">
+    <div class="footer-top">
+      <div class="container footer-grid">
+
+
+        <div class="footer-brand">
+          <a href="#hero" class="logo logo-footer">
+            <span class="logo-icon"><i class="ph-fill ph-leaf"></i></span>
+            <span class="logo-text">Renov<em>Arte</em></span>
+          </a>
+          <p>Um projeto educativo comprometido com a difusão do conhecimento sobre sustentabilidade e energias
+            renováveis.</p>
+        </div>
+
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#o-que-sao">O Que São</a></li>
+            <li><a href="#tipos">Tipos de Energia</a></li>
+            <li><a href="#importancia">Importância</a></li>
+            <li><a href="#impactos">Impactos</a></li>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+          </ul>
+        </div>
+
+
+        <div class="footer-col">
+          <h4>Energias</h4>
+          <ul>
+            <li><a href="#solar">Energia Solar</a></li>
+            <li><a href="#eolica">Energia Eólica</a></li>
+            <li><a href="#hidreletrica">Energia Hidrelétrica</a></li>
+            <li><a href="#biomassa">Biomassa</a></li>
+            <li><a href="#geotermica">Energia Geotérmica</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>
+          &copy; 2026 RenovArte — Atividade Prática Supervisionada.<br />
+          Desenvolvido pelos alunos <strong>Guilherme Gracioli Gueleri & Leonardo de O. Gregoris</strong>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <button class="btn-back-top" id="btn-back-top" aria-label="Voltar ao topo" title="Voltar ao topo">
+    <i class="ph ph-arrow-up"></i>
+  </button>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
